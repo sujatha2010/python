@@ -1,0 +1,11 @@
+# f = open("C:/Users/Sujatha/Downloads/suji.txt","a")
+# f.write("now the file has more content!")
+# f.close()
+# f = open("C:/Users/Sujatha/Downloads/suji.txt","r")
+# print(f.read())
+
+f = open("C:/Users/Sujatha/Downloads/suji.txt","w")
+f.write("Woops! i have deleted the content!")
+f.close()
+f = open("C:/Users/Sujatha/Downloads/suji.txt","r")
+print(f.read())
